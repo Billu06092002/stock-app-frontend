@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stock Pro Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📊 Stock Pro Dashboard</h1>
+</header>
+
+<div class="container">
+
+<input id="stockInput" placeholder="Enter Stock (TCS.NSE)">
+<button onclick="loadStock()">Analyze</button>
+<button onclick="addToWatchlist()">⭐</button>
+
+<div class="card">
+    <h2 id="stockName"></h2>
+    <p id="price"></p>
+    <p id="signal"></p>
+</div>
+
+<div class="card">
+    <div id="chart"></div>
+</div>
+
+<div class="card">
+    <h3>Watchlist</h3>
+    <div id="watchlist"></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

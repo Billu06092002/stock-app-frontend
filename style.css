@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    background: #1e293b;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #22c55e;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+#watchlist span {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #38bdf8;
+}
