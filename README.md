@@ -18,4 +18,4 @@ Live Demo: https://superlative-starburst-db1cb2.netlify.app/
 Free API has daily limits.
 
 ## 👨‍💻 Author
-Your Name
+MUKESH KUMAR
